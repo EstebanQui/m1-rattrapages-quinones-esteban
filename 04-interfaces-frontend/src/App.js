@@ -10,9 +10,9 @@ function App() {
     <div className="App">
       <Header />
       <main className="flex flex-col items-center justify-center">
-        <LeaveSummary />
-        <LeaveForm />
         <ListVacations />
+        <LeaveForm />
+        <LeaveSummary />
       </main>
     </div>
   );
