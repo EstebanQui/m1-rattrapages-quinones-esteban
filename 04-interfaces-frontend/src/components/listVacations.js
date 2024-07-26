@@ -6,6 +6,8 @@ const ListVacations = () => {
             id: 1, 
             type: "Congé Exceptionnel", 
             duration: "7 days", 
+            start_date: "2022-10-01",
+            end_date: "2022-10-08",
             description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sit amet tortor nec nunc ultricies ultricies. Ut in semper purus. Nullam nec semper neque. Nulla facilisi. Nullam nec semper neque. Nulla facilisi.", 
             status: "Refused" 
         }, 
@@ -13,6 +15,8 @@ const ListVacations = () => {
             id: 2, 
             type: "CP", 
             duration: "2 days", 
+            start_date: "2022-11-01",
+            end_date: "2022-11-03",
             description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sit amet tortor nec nunc ultricies ultricies. Ut in semper purus. Nullam nec semper neque. Nulla facilisi. Nullam nec semper neque. Nulla facilisi.", 
             status: "Validated" 
         }, 
@@ -20,6 +24,8 @@ const ListVacations = () => {
             id: 3, 
             type: "RTT", 
             duration: "10 days", 
+            start_date: "2022-12-01",
+            end_date: "2022-12-11",
             description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sit amet tortor nec nunc ultricies ultricies. Ut in semper purus. Nullam nec semper neque. Nulla facilisi. Nullam nec semper neque. Nulla facilisi.", 
             status: "Requested" 
         }
@@ -67,7 +73,7 @@ const ListVacations = () => {
 
     return (
         <div className="flex flex-col items-center justify-center">
-            <h1 className="text-3xl font-bold text-center">List Vacations</h1>
+            <h2 className="text-3xl font-bold text-center">List Vacations</h2>
             <div className="flex flex-col items-center justify-center mt-4 w-1/2"> 
                 <div className="flex flex-col items-center justify-center gap-8 w-full">
                     {vacations.map((vacation) => (
@@ -75,8 +81,8 @@ const ListVacations = () => {
                             <div className="flex flex-col items-center justify-center w-full">
                                 <h2 className="text-xl font-semibold text-center">{vacation.type}</h2>
                                 <p className="text-center">{vacation.duration}</p>
+                                <p className="text-center">{vacation.start_date} - {vacation.end_date}</p>
                                 <p className="text-center">{vacation.description}</p>
-                                <p className="text-center">{vacation.status}</p>
                                 <p className={gestionVacation(vacation.status)}>{vacation.status}</p>
                                 {selectedVacation === vacation.id && (
                                     <div className="flex flex-col items-center justify-center w-full">
