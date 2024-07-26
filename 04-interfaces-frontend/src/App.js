@@ -9,7 +9,7 @@ function App() {
   return (
     <div className="App">
       <Header />
-      <main className="flex flex-col items-center justify-center">
+      <main className="flex flex-col items-center justify-center p-6 bg-gray-800 text-white w-full">
         <ListVacations />
         <LeaveForm />
         <LeaveSummary />
