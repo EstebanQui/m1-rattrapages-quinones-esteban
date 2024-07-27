@@ -2,8 +2,8 @@ import React from "react";
 
 const LeaveForm = () => {
     return (
-        <div className="flex flex-col items-center justify-center w-full mt-8">
-            <h2 className="text-3xl font-bold text-center">Request Vacations</h2>
+        <div id="request_vacation" className="flex flex-col items-center justify-center w-full mt-8">
+            <h2 className="text-3xl font-bold">Request Vacations</h2>
             <form className="flex flex-col items-center justify-center gap-3 mt-6 border-t border-x-blue-50 w-full">
                 <label htmlFor="leaveType" className="text-xl font-semibold mt-6">Leave Type</label>
                 <select id="leaveType" name="leaveType" className=" w-3/5 p-2 mt-2 text-blue-950">

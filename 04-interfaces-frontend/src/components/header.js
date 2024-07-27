@@ -5,13 +5,12 @@ import { Dialog, DialogPanel } from '@headlessui/react'
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
 
 const navigation = [
-  { name: 'Product', href: '#' },
-  { name: 'Features', href: '#' },
-  { name: 'Marketplace', href: '#' },
-  { name: 'Company', href: '#' },
+  { name: 'List Vacations', href: '#list_vacation' },
+  { name: 'Requets Vacations', href: '#request_vacation' },
+  { name: 'Vacations Summary', href: '#vacation_summary' },
 ]
 
-export default function Example() {
+export default function Mobile() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
 
   return (

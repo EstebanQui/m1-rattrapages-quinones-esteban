@@ -4,6 +4,7 @@ import './App.css';
 import ListVacations from './components/listVacations';
 import LeaveForm from './components/leaveForm';
 import LeaveSummary from './components/leaveSummary';
+import Footer from './components/footer';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <LeaveForm />
         <LeaveSummary />
       </main>
+      <Footer />
     </div>
   );
 }

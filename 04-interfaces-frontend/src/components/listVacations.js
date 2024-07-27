@@ -72,8 +72,8 @@ const ListVacations = () => {
     }
 
     return (
-        <div className="p-4 sm:p-0">
-            <h2 className="text-3xl font-bold text-center">List Vacations</h2>
+        <div id="list_vacation" className="p-4 sm:p-0">
+            <h2 className="text-3xl font-bold">List Vacations</h2>
             <div className="mt-6 border-t border-x-blue-50"> 
                 <div className="gap-8 w-full sm:grid sm:grid-cols-3">
                     {vacations.map((vacation) => (
