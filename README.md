@@ -1,18 +1,29 @@
 <h1 align="center">Welcome to m1-rattrapages-quinones-esteban 👋</h1>
 <p>
+  <a href="https://tailwindui.com/components https://tailwindcss.com/docs/width https://v1.tailwindcss.com/components/forms https://flowbite.com/docs/components/buttons/ https://www.material-tailwind.com/docs/react/footer" target="_blank">
+    <img alt="Documentation" src="https://img.shields.io/badge/documentation-yes-brightgreen.svg" />
+  </a>
 </p>
 
-> Frontend web page for taking and managing vacations
+> A project in React with Tailwind featuring the interface of an application used to view the time off you've taken or to set time off. From the Rattrapages instruction - Promotion 2025 exercise numero 04 - Interfaces frontend
+
+### ✨ [Demo](www.monprojet.fr)
 
 ## Install
 
 ```sh
-npm install
+cd 04-interfaces-frontend npm install
+```
+
+## Usage
+
+```sh
+npm start
 ```
 
 ## Author
 
-👤 **Esteban Quinones**
+👤 **Esteban Quinoes**
 
 
 ## Show your support
