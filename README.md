@@ -5,7 +5,11 @@
   </a>
 </p>
 
-> A project in React with Tailwind featuring the interface of an application used to view the time off you've taken or to set time off. From Rattrapages - Promotion 2025 exercise numero 04 - Interfaces frontend. The documentations that helped me with this project are :     - https://tailwindui.com/components
+> A project in React with Tailwind featuring the interface of an application used to view the time off you've taken or to set time off. From Rattrapages - Promotion 2025 exercise numero 04 - Interfaces frontend. The documentations that helped me with this project are :
+>   - https://tailwindui.com/components
+    - https://tailwindcss.com/docs/width
+    - https://v1.tailwindcss.com/components/forms
+    - https://flowbite.com/docs/components/buttons/
 
 ### ✨ [Demo](www.monprojet.fr)
 
@@ -13,6 +17,7 @@
 
 ```sh
 cd 04-interfaces-frontend
+npm install
 ```
 
 ## Usage
@@ -20,10 +25,3 @@ cd 04-interfaces-frontend
 ```sh
 npm start
 ```
-
-## Show your support
-
-Give a ⭐️ if this project helped you!
-
-***
-_This README was generated with ❤️ by [readme-md-generator](https://github.com/kefranabg/readme-md-generator)_
