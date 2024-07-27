@@ -7,11 +7,11 @@
 
 > A project in React with Tailwind featuring the interface of an application used to view the time off you've taken or to set time off. From Rattrapages - Promotion 2025 exercise numero 04 - Interfaces frontend. The documentations that helped me with this project are :
 >   - https://tailwindui.com/components
-    - https://tailwindcss.com/docs/width
-    - https://v1.tailwindcss.com/components/forms
-    - https://flowbite.com/docs/components/buttons/
+>   - https://tailwindcss.com/docs/width
+>   - https://v1.tailwindcss.com/components/forms
+>   - https://flowbite.com/docs/components/buttons/
 
-### ✨ [Demo](www.monprojet.fr)
+### ✨ [Demo](https://m1-rattrapages-quinones-esteban.vercel.app/)
 
 ## Install
 
